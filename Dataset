@@ -1,0 +1,68 @@
+The SmartBugs repository https://smartbugs.github.io/ primarily contains `.sol` files, which are Ethereum smart contract source code files. These files are not structured like traditional datasets, so converting them directly to CSV might not be straightforward.
+
+However, if you're looking to create a CSV dataset from the `.sol` files, one approach could be to extract specific features or metadata from each smart contract and then structure this information in a CSV format.
+
+Here's a potential approach:
+
+1. **Define Features**: Decide on the features or metadata you want to extract from each smart contract. This could include:
+   - Contract name
+   - Number of functions
+   - Number of lines of code
+   - Any specific patterns or keywords you're interested in
+
+2. **Extract Features**: Write a script to parse each `.sol` file and extract the desired features.
+
+3. **Write to CSV**: Use the extracted features to create a CSV file.
+
+Here's a basic example in R, extracting just the number of lines and number of functions:
+
+```R
+# Required Libraries
+install.packages("data.table")
+library(data.table)
+
+# Define the path to the SmartBugs repository
+smartbugs_path <- "path_to_smartbugs_repository/dataset"
+
+# List all .sol files
+sol_files <- list.files(path = smartbugs_path, pattern = "\\.sol$", recursive = TRUE, full.names = TRUE)
+
+# Extract features
+dataset <- lapply(sol_files, function(file) {
+  code <- readLines(file, warn = FALSE)
+  num_lines <- length(code)
+  num_functions <- sum(grepl("function", code))
+  
+  return(data.table(file = file, num_lines = num_lines, num_functions = num_functions))
+})
+
+# Combine data and write to CSV
+final_dataset <- rbindlist(dataset)
+fwrite(final_dataset, "smartbugs_dataset.csv")
+```
+
+This script will create a CSV file with columns for the file name, number of lines, and number of functions. You can expand this to extract more features as needed.
+
+Remember, this is a basic example, and the actual extraction might require more sophisticated parsing depending on the features you're interested in.
+# Required Libraries
+install.packages("data.table")
+library(data.table)
+
+# Define the path to the SmartBugs repository
+smartbugs_path <- "path_to_smartbugs_repository/dataset"
+
+# List all .sol files
+sol_files <- list.files(path = smartbugs_path, pattern = "\\.sol$", recursive = TRUE, full.names = TRUE)
+
+# Extract features
+dataset <- lapply(sol_files, function(file) {
+  code <- readLines(file, warn = FALSE)
+  num_lines <- length(code)
+  num_functions <- sum(grepl("function", code))
+  
+  return(data.table(file = file, num_lines = num_lines, num_functions = num_functions))
+})
+
+# Combine data and write to CSV
+final_dataset <- rbindlist(dataset)
+fwrite(final_dataset, "smartbugs_dataset.csv")
