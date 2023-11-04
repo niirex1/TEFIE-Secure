@@ -1,6 +1,6 @@
 # Overview
 
-TEFIE-Secure is a state-of-the-art framework designed for the detection of vulnerabilities in smart contracts. By leveraging advanced techniques such as Figurative Learning, Incremental Transfer Learning (ITL), and Ensemble Classification, TEFIE-Secure provides unparalleled accuracy and efficiency in identifying potential vulnerabilities.
+TEFIE-Secure is a state-of-the-art approach designed for the detection of vulnerabilities in smart contracts. By leveraging advanced techniques such as Figurative Learning, Incremental Transfer Learning (ITL), and Ensemble Classification, TEFIE-Secure provides unparalleled accuracy and efficiency in identifying potential vulnerabilities.
 
 ## Key Features:
 
