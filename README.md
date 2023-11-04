@@ -1,10 +1,10 @@
 # Overview
 
-TEFIE-Secure is a state-of-the-art approach designed for the detection of vulnerabilities in smart contracts. By leveraging advanced techniques such as Figurative Learning, Incremental Transfer Learning (ITL), and Ensemble Classification, TEFIE-Secure provides unparalleled accuracy and efficiency in identifying potential vulnerabilities.
+TEFIE-Secure is a state-of-the-art approach designed to detect vulnerabilities in smart contracts. By leveraging advanced techniques such as Figurative Learning, Incremental Transfer Learning (ITL), and Ensemble Classification, TEFIE-Secure provides unparalleled accuracy and efficiency in identifying potential vulnerabilities.
 
 ## Key Features:
 
-- **Unified Framework**: TEFIE-Secure offers a comprehensive solution that integrates smart contract vulnerability detection and specification.
+- **Unified Framework**: TEFIE-Secure offers a comprehensive solution integrating smart contract vulnerability detection and specification.
   
 - **Advanced Algorithms**: Incorporates ITL, Ensemble techniques, and Figurative Learning to enhance vulnerability detection in real-time.
   
@@ -148,12 +148,12 @@ This section provides a brief overview of the MIT License for the PGT project. I
 
 ## Contact & Support
 
-For any questions, feedback, or suggestions regarding the PGT project, please reach out to the project maintainers:
+For any questions, feedback, or suggestions regarding the TEFIE-Secure project, please reach out to the project maintainers:
 
 - **Rexford Sosu**
   - Email: rexfordsosu@outlook.com
   - GitHub: [@rexfordsosu](https://github.com/niirex1)
   - LinkedIn: [Rexford's LinkedIn](https://www.linkedin.com/in/rexford-sosu-b4593b57/)
 
-We appreciate your interest in the PGT project and look forward to collaborating with you!
+We appreciate your interest in the TEFIE-Secure project and look forward to collaborating with you!
 ---
