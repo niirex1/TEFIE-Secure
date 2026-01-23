@@ -1,0 +1,11 @@
+Model,Latency_ms,Throughput_inst_s,Peak_VRAM_GB,Params_M
+DR-GCN,25.4,39.4,3.2,2.1
+TMP,31.7,31.5,3.5,3.8
+CGE,42.5,23.5,4.1,5.2
+VDM-AEI,18.9,52.9,2.8,1.5
+SCOBERT,12.3,81.3,2.1,110.0
+SCVulBERT,14.8,67.6,2.3,125.0
+SmartConDetect,16.5,60.6,2.5,95.0
+SmartGuard,210.5,4.8,8.5,350.0
+FELLMVP,185.2,5.4,7.9,280.0
+TEFIE-Secure,10.7,93.5,1.8,1.2

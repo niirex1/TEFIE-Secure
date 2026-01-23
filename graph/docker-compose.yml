@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  tefie-secure-graph:
+    build: .
+    image: tefie-secure-graph:latest
+    working_dir: /workspace
+    command: ["make", "paper"]
+    volumes:
+      - ./:/workspace

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\begin{tabular}{lrrrr}
+\toprule
+Model & Latency_ms & Throughput_inst_s & Peak_VRAM_GB & Params_M \\
+\midrule
+DR-GCN & 25.400000 & 39.400000 & 3.200000 & 2.100000 \\
+TMP & 31.700000 & 31.500000 & 3.500000 & 3.800000 \\
+CGE & 42.500000 & 23.500000 & 4.100000 & 5.200000 \\
+VDM-AEI & 18.900000 & 52.900000 & 2.800000 & 1.500000 \\
+SCOBERT & 12.300000 & 81.300000 & 2.100000 & 110.000000 \\
+SCVulBERT & 14.800000 & 67.600000 & 2.300000 & 125.000000 \\
+SmartConDetect & 16.500000 & 60.600000 & 2.500000 & 95.000000 \\
+SmartGuard & 210.500000 & 4.800000 & 8.500000 & 350.000000 \\
+FELLMVP & 185.200000 & 5.400000 & 7.900000 & 280.000000 \\
+TEFIE-Secure & 10.700000 & 93.500000 & 1.800000 & 1.200000 \\
+\bottomrule
+\end{tabular}
+\caption{Runtime and resource overhead during inference (median over 100 runs; warm-cache; excludes one-time model load).}
+\label{tab:runtime}
+\end{table}
