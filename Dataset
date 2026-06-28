@@ -1,9 +1,0 @@
-Dataset notes
-
-This repository includes Solidity samples grouped by vulnerability family
-under the top-level folders (e.g., reentrancy/, time_manipulation/).
-
-For paper reproduction (tables and figures), the inputs are stored under:
-  graph/paper/assets/
-
-See README.md for the exact reproduction commands.
