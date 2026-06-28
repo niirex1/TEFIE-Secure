@@ -1,0 +1,7 @@
+task,tool,fpr,tpr
+reentrancy,Slither,0.06,0.628
+reentrancy,Mythril,0.092,0.694
+timestamp,Slither,0.034,0.779
+timestamp,Mythril,0.033,0.562
+loops,Slither,0.057,0.777
+loops,Mythril,0.078,0.779

@@ -1,0 +1,8 @@
+model,mode,latency_ms_p50,latency_ms_p99,throughput_inst_s,peak_vram_gb,params_m
+TEFIE-Secure,source,174.2,82.5,37.1,2.3,330.0
+VDM-AEI,source,86.2,124.4,20.2,4.7,138.0
+FELLMVP,source,168.6,72.1,15.3,4.5,257.4
+SmartGuard,source,14.4,230.1,63.2,1.0,225.3
+SCVulBERT,source,185.7,216.1,18.3,4.4,179.3
+Slither,source,137.4,251.0,56.2,3.6,255.4
+Mythril,source,17.3,109.2,18.1,3.5,155.0

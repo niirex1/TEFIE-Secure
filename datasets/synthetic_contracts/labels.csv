@@ -1,0 +1,4 @@
+file,vuln_type,label
+reentrancy_example.sol,reentrancy,1
+timestamp_example.sol,timestamp,1
+unbounded_loop_example.sol,loops,1

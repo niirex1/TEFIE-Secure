@@ -1,0 +1,7 @@
+variant,loops,reentrancy,timestamp
+full,86.86,83.49,84.05
+w/o contextual embeddings,87.06,86.13,88.64
+w/o cross-addr. typing,88.86,82.96,85.69
+w/o feature selection,86.84,85.2,85.36
+w/o preprocessing,84.49,84.7,87.96
+w/o residual refiner,84.79,83.1,86.01

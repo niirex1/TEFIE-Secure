@@ -1,0 +1,16 @@
+task,feature_group,mean_abs_shap
+Reentrancy,call-edge,0.411
+Reentrancy,state-update,0.267
+Reentrancy,loop-structure,0.217
+Reentrancy,block-variable,0.288
+Reentrancy,normalization,0.138
+Timestamp,call-edge,0.391
+Timestamp,state-update,0.577
+Timestamp,loop-structure,0.223
+Timestamp,block-variable,0.497
+Timestamp,normalization,0.426
+Loops,call-edge,0.534
+Loops,state-update,0.149
+Loops,loop-structure,0.059
+Loops,block-variable,0.149
+Loops,normalization,0.581

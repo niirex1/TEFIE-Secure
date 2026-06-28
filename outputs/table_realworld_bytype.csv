@@ -1,0 +1,6 @@
+vuln_type,disclosed,flagged,recall_pct
+access-control,10,10,100.0
+bridge,9,9,100.0
+loops,10,10,100.0
+reentrancy,8,8,100.0
+timestamp,7,7,100.0
